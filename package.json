@@ -1,0 +1,27 @@
+{
+    "name": "jx-convert",
+    "version": "1.0.0",
+    "description": "A library for converting numbers from a numeral system to another.",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src/jx-convert.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "library",
+        "convert",
+        "numbers",
+        "numeric system",
+        "numeric",
+        "system",
+        "decimal",
+        "hexadecimal",
+        "binary"
+    ],
+    "author": "Jhonatan Castillo",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "bin": "./src/cli.js"
+}
